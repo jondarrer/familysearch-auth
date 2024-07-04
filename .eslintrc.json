@@ -1,0 +1,39 @@
+{
+    "env": {
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "jest": true
+    },
+    "extends": [
+      "plugin:jest/recommended"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "impliedStrict": true
+      },
+      "ecmaVersion": 13
+    },
+    "plugins": [
+      "jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "*.ts"
+        ],
+        "parser": "@typescript-eslint/parser",
+        "plugins": [
+          "@typescript-eslint"
+        ],
+        "extends": [
+          "eslint:recommended",
+          "plugin:@typescript-eslint/eslint-recommended",
+          "plugin:@typescript-eslint/recommended"
+        ],
+        "rules": {
+          "@typescript-eslint/no-empty-function": "off"
+        }
+      }
+    ]
+  }

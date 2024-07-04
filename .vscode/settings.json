@@ -1,0 +1,37 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "prettier.requireConfig": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#9fc963",
+      "activityBar.background": "#9fc963",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#3979a6",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "commandCenter.border": "#15202b99",
+      "sash.hoverBorder": "#9fc963",
+      "statusBar.background": "#87b940",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#6b9333",
+      "statusBarItem.remoteBackground": "#87b940",
+      "statusBarItem.remoteForeground": "#15202b",
+      "titleBar.activeBackground": "#87b940",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#87b94099",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#87b940",
+    "cSpell.words": [
+        "familysearch"
+    ]
+}
